@@ -94,33 +94,19 @@ export const COPY = {
     items: [
       {
         id: 1,
-        title: "Riverside Restaurant",
-        type: "Instagram Reels",
-        gradient: "from-blue-900/80 to-black/40",
+        url: "https://www.instagram.com/p/DWzEDIsidRr/?igsh=bHdvOTUxdXh6bzNq",
       },
       {
         id: 2,
-        title: "Urban Barbershop",
-        type: "TikTok",
-        gradient: "from-purple-900/80 to-black/40",
+        url: "https://www.instagram.com/p/DWws4BXjvYh/?igsh=aGQ3ZGtmcm13bDc5",
       },
       {
         id: 3,
-        title: "Lakeside Gym",
-        type: "YouTube Shorts",
-        gradient: "from-green-900/80 to-black/40",
+        url: "https://www.instagram.com/p/DWuWq2JEpiw/?igsh=dXlqNHR0ZnF3N2I3",
       },
       {
         id: 4,
-        title: "Downtown Realtor",
-        type: "Instagram Reels",
-        gradient: "from-red-900/80 to-black/40",
-      },
-      {
-        id: 5,
-        title: "Queen West Salon",
-        type: "TikTok",
-        gradient: "from-pink-900/80 to-black/40",
+        url: "https://www.instagram.com/p/DWrVg4wjSUl/?igsh=Y2xyajY3endpbG1t",
       },
     ],
   },

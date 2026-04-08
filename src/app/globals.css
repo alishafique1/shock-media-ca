@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-black: #000000;
+  --color-dark: #0A0A0A;
+  --color-surface: #111111;
+  --color-border: #1A1A1A;
+  --color-border-visible: #222222;
+  --color-blue: #0066FF;
+  --color-blue-dark: #0055DD;
+  --color-white: #FFFFFF;
+  --color-muted: #A0A0A0;
+  --color-subtle: #666666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+body {
+  font-family: var(--font-manrope), sans-serif;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-visible);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-subtle);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+}
+
+/* Reveal animation base */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

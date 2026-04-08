@@ -39,14 +39,17 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0">
-            <Image
-              src={COPY.nav.logo}
-              alt="Shock Media Toronto"
-              width={140}
-              height={40}
-              className="h-8 w-auto"
-            />
+          <Link href="/" className="flex-shrink-0 flex items-center">
+            <div className="bg-[#0A0D1A] rounded-lg px-2 py-1.5">
+              <Image
+                src={COPY.nav.logo}
+                alt="Shock Media Toronto"
+                width={300}
+                height={171}
+                className="h-9 w-auto"
+                style={{ maxWidth: "140px" }}
+              />
+            </div>
           </Link>
 
           {/* Desktop nav links */}
